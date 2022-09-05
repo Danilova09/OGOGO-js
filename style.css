@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F6F7;
+}
+
 .btn-block {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .btn {
@@ -15,6 +24,10 @@
     font-weight: 700;
     line-height: 32px;
     cursor: pointer;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-login {
@@ -25,7 +38,73 @@
 
 .btn-action {
     border: 2px solid #f4f4f4;
-    background: #6C5CE7;
     color: #fff;
     margin-left: 15px;
+}
+
+.btn-back {
+    width: 72px;
+    height: 32px;
+    text-align: right;
+    color: #2D3436;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 20px;
+    border: none;
+    background: #F6F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-back span {
+    margin-left: 10px;
+}
+
+.btn-purple {
+    background: #6C5CE7;
+}
+
+.btn-search,
+.btn-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.btn-search {
+    height: 48px;
+}
+
+.works-icon {
+    margin-left: 10px;
+}
+
+.btn-yellow {
+    background: #FDCB6E;
+}
+
+.purchase-btn {
+    color: #2D3436;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    border: none;
+}
+
+.award-icon {
+    margin-right: 5px;
 }
