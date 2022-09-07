@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +12,6 @@
         <link rel="stylesheet" href="./src/css/style.css">
         <title>IMAGINE</title>
     </head>
-
     <body>
         <!-- Header -->
         <header class="header">
@@ -55,6 +53,8 @@
             </div>
         </div>
 
+        <!-- Filter block -->
+
         <div class="wrapper filter-block filter-block_top">
             <div class="filter-block_inner">
                 <div class="filter-block__item filter-item-block">
@@ -71,27 +71,65 @@
         <!-- Cards block -->
 
         <div class="wrapper">
-            <div class="cards-block cards-block_top">
-                <div class="card-item"> 
-                    <div>
-                        <img src="./assets/images/png/Artwork.png" alt="Artwork">
+            <div class="cards-block">
+                <div class="card-item">
+                    <div class="card-item__img-wrapper">
+                        <img class="card-item__img" src="./assets/images/png/Artwork.png" alt="Artwork">
+                    </div>
+                    <div class="card-description">
+                        <div class="card-description_user-img-wrapper">
+                            <img class="card-description_user-img" src="./assets/images/png/Artist-4.png" alt="User">
+                        </div>
+                        <div class="user-info">
+                            <div class="card-description__username">George Dillan</div>
+                            <div class="card-photo-description">Forest silence</div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-item">
-                    <div>
-                        <img src="./assets/images/png/Artwork-2.png" alt="Artwork">
+                    <div class="card-item__img-wrapper">
+                        <img class="card-item__img" src="./assets/images/png/Artwork-2.png" alt="Artwork">
+                    </div>
+                    <div class="card-description">
+                        <div class="card-description_user-img-wrapper">
+                            <img class="card-description_user-img" src="./assets/images/png/Artist.png" alt="User">
+                        </div>
+                        <div class="user-info">
+                            <div class="card-description__username">Peggy Wood</div>
+                            <div class="card-photo-description">Still life V</div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-item">
-                    <div>
-                        <img src="./assets/images/png/Artwork-3.png" alt="Artwork">
+                    <div class="card-item__img-wrapper">
+                        <img class="card-item__img" src="./assets/images/png/Artwork-3.png" alt="Artwork">
+                    </div>
+                    <div class="card-description">
+                        <div class="card-description_user-img-wrapper">
+                            <img class="card-description_user-img" src="./assets/images/png/Artist-2.png" alt="User">
+                        </div>
+                        <div class="user-info">
+                            <div class="card-description__username">Alice Gordan</div>
+                            <div class="card-photo-description">Surrounded</div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-item">
-                    <div>
-                        <img src="./assets/images/png/Artwork-4.png" alt="Artwork">
+                    <div class="card-item__img-wrapper">
+                        <img class="card-item__img" src="./assets/images/png/Artwork-4.png" alt="Artwork">
+                    </div>
+                    <div class="card-description">
+                        <div class="card-description_user-img-wrapper">
+                            <img class="card-description_user-img" src="./assets/images/png/Artist-3.png" alt="User">
+                        </div>
+                        <div class="user-info">
+                            <div class="card-description__username">Timothy Taylor</div>
+                            <div class="card-photo-description">Mountain landscape</div>
+                        </div>
                     </div>
                 </div>
+
+    
             </div>
         </div>
 
@@ -100,7 +138,7 @@
         <div class="wrapper pagination_wrapper">
             <div class="pagination-block">
                 <div class="pagination__item">
-                    <img src="./assets/images/svg/ArrowLeft.svg" alt="ArrowLeft">
+                    <img class="pagination__arrow" src="./assets/images/svg/ArrowLeft.svg" alt="ArrowLeft">
                 </div>
                 <div class="pagination__item">1</div>
                 <div class="pagination__item">2</div>
@@ -108,23 +146,38 @@
                 <div class="pagination__item">...</div>
                 <div class="pagination__item">74</div>
                 <div class="pagination__item">
-                    <img src="./assets/images/svg/ArrowRight.svg" alt="ArrowRight">
+                    <img class="pagination__arrow" src="./assets/images/svg/ArrowRight.svg" alt="ArrowRight">
                 </div>
             </div>
             <div class="pagination-text-block">1-4 of 296 Results</div>
         </div>
 
-        
-        <footer class="wrapper footer-wrapper">
+     <div class="footer-wrapper">
+        <footer class="wrapper">
             <div class="footer-block">
-                <div class="footer-item">1</div>
-                <div class="footer-item">2</div>
-                <div class="footer-item">3</div>
+                <div class="footer-item footer-item__left">
+                    <div class="footer-logo">
+                        <img src="./assets/images/png/Logo ImagineWhite.png" alt="Imagine">
+                    </div>
+                    <div class="footer-descritpion__left">
+                        <p class="footer-description-text ">Contract offer</p>
+                        <p class="footer-description-text">Card payment rules</p>
+                    </div>
+                </div>
+                <div class="footer-item footer-item__right">
+                    <div class="footer-description-text ">
+                        <p>imagine.com</p>
+                        <p class="email-text">info@imagine.com</p>
+                        <p class="copyright-text">© IMAGINE 2021. All rights Reserved</p>
+                    </div>
+                    <div class="footer-item-right-socials">
+                        <img class="footer-social-icon" src="./assets/images/svg/Facebook.svg" alt="Facebook">
+                        <img class="footer-social-icon" src="./assets/images/svg/WhatsApp.svg" alt="WhatsApp">
+                        <img class="footer-social-icon" src="./assets/images/svg/Instagram.svg" alt="Instagram">
+                    </div>
+                </div>
             </div>
-
         </footer>
-
-
+     </div>
     </body>
-
 </html>

@@ -2,7 +2,6 @@
   max-width: 1310px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 1px solid red;
 }
 
 .header {
@@ -64,8 +63,6 @@
   display: flex;
 }
 
-.filter-block__item {}
-
 .filter-item-block {
   width: 258px;
   font-weight: 600;
@@ -86,22 +83,65 @@
   height: 5px;
 }
 
+
+/* Cards styles */
+
 .cards-block {
   display: flex;
-  gap: 15px;
-}
-
-.cards-block_top {
-  padding-top: 60px;
+  margin-top: 60px;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card-item {
-  width: 23.000%;
+  max-width: 300px;
+  transition: 300ms;
 }
 
-.card-item div img {
-  width: 200px;
-  height: auto;
+.card-item:hover {
+  box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+
+.card-item__img-wrapper {
+  width: 100%;
+}
+
+.card-item__img {
+  width: 100%;
+}
+
+
+.card-description_user-img-wrapper {
+  width: 38px;
+  height: 38px;
+}
+
+.card-description_user-img {
+  width: 100%;
+}
+
+
+.card-description {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 5px;
+}
+
+.card-description__username {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.card-photo-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.user-info {
+  margin-left: 10px;
 }
 
 .pagination_wrapper {
@@ -121,6 +161,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.pagination__item:hover {
+  background: #000;
+  color: #fff;
 }
 
 .pagination-text-block {
@@ -142,5 +189,45 @@
 
 .footer-item {
   color: #fff;
-  border: 1px solid red;
 }
+
+.footer-description-text {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.footer-item__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-descritpion__left {
+  margin-top: 60px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.footer-description-text {
+  margin-top: 16px;
+}
+
+.footer-item__right {
+  display: flex;
+}
+
+.footer-item-right-socials {
+  margin: 41px 0 0 100px;
+}
+
+.email-text {
+  margin-top: 16px;
+}
+
+.copyright-text {
+  margin-top: 64px;
+}
+
+.footer-social-icon {
+  margin-left: 16px;
+}
+
