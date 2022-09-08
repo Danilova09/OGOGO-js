@@ -33,6 +33,7 @@ h1, h2, h4, h4, h5, h6 {
 button {
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 img {
