@@ -1,0 +1,100 @@
+.wrapper {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .item {
+  width: 250px;
+  height: 250px;
+  background: red;
+  position: relative;
+}
+
+.item::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+} */
+
+/* 
+.example {
+  width: 70px;
+  height: 70px;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+} */
+
+
+/* .item {
+  width: 250px;
+  height: 250px;
+  background: red;
+} */
+
+
+/* При уменьшении экрана применяется max-width, когда максимальная ширина экрана = 767,
+ когда меньше этого числа применятся эти стили */
+
+/* @media all and (max-width: 767px) {
+  .item {
+    background: blue;
+  }
+} */
+
+
+/* При увеличении экрана применяется min-width */
+
+
+.item {
+  width: 80%;
+  background: wheat;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item div {
+  width: 500px;
+  height: 500px;
+  background: black
+}
+
+@media all and (max-width: 992px) {
+  .item {
+    gap: 40px;
+  }
+
+  .item div {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+}
+
+/* 768 Media Quaris */
+
+@media all and (max-width: 768px) {
+  .item {
+    
+  }
+}
