@@ -1,0 +1,323 @@
+@media all and (max-width: 1200px) {
+
+    /* Collab teams block */
+    .collab-teams-block__logo-item {
+        width: 33.3333%;
+    }
+
+    /* Collaborate block */
+    .collaborate-block {
+        padding: 100px 15px 60px 15px;
+    }
+
+    .collaborate-block__title {
+        font-size: 35px;
+    }
+
+    .collaborate-block__item_left,
+    .collaborate-block__item_right {
+        width: 50%;
+    }
+
+    .collaborate-block__item_right {
+        padding-left: 20px;
+    }
+
+    .collaborate-block__img-1 {
+        max-width: 464px;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+    }
+
+    .collaborate-block__img-2 {
+        bottom: -14%;
+        right: 5%;
+        max-width: 300px;
+    }
+
+    .collaborate-block__list-item {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+    .creative-block__right-img-2 {
+        left: -5%;
+    }
+
+    .creative-block__item {
+        width: 100%;
+    }
+
+    /* Creative block */
+
+    .creative-block {
+        padding: 130px 0 700px 0;
+    }
+
+    .creative-block__left {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .creative-block__title {
+        font-size: 35px;
+        text-align: center;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+
+    .creative-block_description {
+        max-width: 405px;
+        margin: 20px auto 0 auto;
+        text-align: center;
+    }
+
+    .creative-block__review {
+        max-width: 440px;
+        margin: 20px auto 0 auto;
+    }
+
+    .creative-block_btn {
+        margin: 50px auto 0 auto;
+    }
+
+    .creative-block__right-img-1,
+    .creative-block__right-img-2 {
+        width: 70%;
+    }
+
+    .creative-block__right {
+        margin-top: 40px;
+    }
+
+    .creative-block__right-img-1 {
+        right: 6%;
+    }
+
+    .creative-block__right-img-2 {
+        left: 0;
+    }
+}
+
+@media all and (max-width: 992px) {
+
+    /* Header */
+    .btn-light_header {
+        display: none;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .cart-text,
+    .cart-num {
+        display: none;
+    }
+
+    /* Collab teams block */
+    .collab-teams-block__title {
+        font-size: 20px;
+    }
+
+    .collab-teams-block__logos {
+        margin-top: 20px;
+    }
+
+    .collab-teams-block__logo-item {
+        width: 50%;
+    }
+
+    /* Features block */
+    .features-block {
+        padding-top: 70px;
+    }
+
+    .features-block__title {
+        font-size: 35px;
+    }
+
+    .features-block__description {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .features-block-item {
+        width: 33.333%;
+    }
+
+    .features-block-item__title {
+        font-size: 18px;
+        line-height: 34px;
+        margin-top: 8px;
+    }
+
+    .features-block-item_inner {
+        padding: 30px 5px 30px 5px;
+    }
+
+
+    /* Collaborate block */
+
+    .collaborate-block {
+        flex-direction: column-reverse;
+        padding: 40px 15px 60px 15px;
+    }
+
+    .collaborate-block__item_left,
+    .collaborate-block__img-1,
+    .collaborate-block__img-2 {
+        position: static;
+    }
+
+    .collaborate-block__item_right {
+        padding-top: 50px;
+    }
+
+    .collaborate-block__item_left,
+    .collaborate-block__item_right {
+        width: 100%;
+    }
+
+    .collaborate-block__item_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .collaborate-block__item_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .collaborate-block__title {
+        text-align: center;
+    }
+
+    .collaborate-block__list {
+        margin: 20px 0 0 0px;
+        text-align: center;
+    }
+
+    .collaborate-block_description {
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    /* Creative block */
+
+    .creative-block {
+        padding: 130px 0 630px 0;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+
+    /* Collab teams block */
+    .collab-teams-block__logo-item {
+        width: 100%;
+    }
+
+    /* Features block */
+
+    .features-block__title {
+        font-size: 27px;
+    }
+
+    .features-block-item__title {
+        line-height: 25px;
+    }
+
+    .features-block__description {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 20px auto 20px auto;
+    }
+
+    .features-block-item {
+        width: 50%;
+    }
+
+    /* Collaborate block */
+    .collaborate-block__title {
+        font-size: 28px;
+    }
+
+    /* Creative block */
+    .creative-block {
+        padding: 90px 0 400px 0;
+    }
+
+    .creative-block__review {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .creative-block__review-text {
+        margin-top: 20px;
+    }
+
+    .creative-block__review-info {
+        text-align: center;
+    }
+
+    /* Cards block */
+
+    .cards-block__title  {
+        font-size: 35px
+    }
+}
+
+
+
+@media all and (max-width: 576px) {
+    /* Collab teams block */
+
+    /* Features block */
+    .features-block__title {
+        line-height: 40px;
+    }
+
+    .features-block-item {
+        width: 50%;
+    }
+
+    .features__img {
+        width: 55px;
+        height: 55px;
+    }
+
+    /* Creative block */
+
+    .creative-block {
+        padding-bottom: 370px;
+    }
+    .creative-block__title {
+        font-size: 28px;
+    }
+
+    .creative-block__review {
+        margin-top: 40px;
+    }
+
+    /* Cards block */
+    .cards-block {
+        padding: 120px 0 50px 0;
+    }
+
+    .cards-wrapper {
+        margin-top: 20px;
+    }
+
+    .cards-block__title  {
+        font-size: 28px
+    }
+}
